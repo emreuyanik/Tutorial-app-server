@@ -10,7 +10,7 @@ const PORT = process.env?.PORT || 8000;
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://emre-tutorial-app-client.vercel.app/",
   }),
 );
 app.use(express.json());
